@@ -1,0 +1,364 @@
+
+ html
+{
+  scroll-behavior: smooth;
+}
+ nav.navbar
+ {
+  
+  width: 100%;
+ }
+ .navbar-brand
+ {
+    font-size:2em;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 0.6em;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+ }
+a.navbar-brand:hover 
+  {
+   transition: 0.7s;
+   
+   color:#EF105D    !important;
+ }
+.navbar-header
+  {
+    height:100%;
+  }
+.navbar 
+  {
+    margin-bottom: 0;
+    background-color:#105AEF  ;
+    z-index: 9999;
+    border: 0;
+   
+    margin-top: 00px;
+    font-size: 17px;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1.2px;
+    border-radius: 0;
+    font-family:rockwell;
+  }
+.navbar li a, .navbar .navbar-brand 
+  {
+    color:white !important;
+   font-family: 'Acme';
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-size: 14px;
+  }
+.navbar-nav li a:hover, .navbar-nav li.active a 
+  {
+    color:black       !important;
+    transition: 0.7s;
+    
+  }
+.navbar-default .navbar-toggle 
+  {
+    border-color: transparent;
+    color: #fff !important;
+
+  }
+  .navbar-default .navbar-toggle:hover
+  {
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 0px;
+    transition: 1s;
+  }
+   .social_header a
+    {
+      text-decoration: none;
+
+    }
+.social_header{ margin-left: 265px;}   
+    .social_header .fa:hover 
+    {
+        color:black;
+        transition:0.7s;
+        
+    }
+  .social_header i
+  {
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+
+  }
+
+ #header
+  {
+   position: relative;
+    
+    height:100%;
+    background-color:white ;
+  }
+  #header h2{ color: black; }
+ 
+  #header h6
+  {
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: black;
+    font-family: Acme;
+  }
+  #section1
+  {
+    height: 550px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    background-color: yellow;
+    background-image: url(image/37.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #section1 .section1_desc h2
+  {
+    font-family: Acme;
+    color: white;
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+  #section1 .section1_desc h4
+  {
+    font-family: Acme;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+   #section1 .section1_desc p
+  {
+    font-family: georgia header;
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+  }
+  #section1 .section1_desc .btn-info
+  {
+    background-color:#EF1D66 ; 
+    border-radius: 0px;
+    font-family: Acme;
+    letter-spacing: 2px;
+    border:none;
+  }
+    #section1 .section1_desc .btn-danger
+    {
+      background-color:#105AEF;
+      border-radius: 0px;
+    font-family: Acme;
+    letter-spacing: 2px;
+    border:none;
+       }
+  #section2
+  {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color:white;
+  }
+  #section2 .types_of_content .well
+  {
+    background-color: white;
+    border-radius: 0px;
+    border:1px solid #EF1D66;
+    padding:0px;
+   
+  }
+   .type_of_image{overflow: hidden;}
+   .type_of_image img{height: 200px;}
+    .type_of_image img:hover
+    {
+      transform: scale(1.5);
+      transition: 0.8s ease-out;
+      cursor: pointer;
+    }
+    .types_of_content .well h3
+    {
+      font-family: Acme;
+      color: #105AEF;
+      padding-top: 20px;
+          letter-spacing: 2px;
+      padding-left: 20px;
+    }
+.types_of_content .well p
+{
+padding-left: 20px;
+padding-right: 20px;
+text-align: justify;
+
+}
+.types_of_content .well .btn-info
+{
+  background-color:#EF1D66 ; 
+    border-radius: 0px;
+    font-family: Acme;
+    letter-spacing: 2px;
+    border:none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+  #section3
+  {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #FFF2F6  ;
+  }
+  .services_heading h2
+  {
+    border-left: 5px solid #EF1D66;
+    color: #105AEF;
+    padding-left: 15px;
+    font-family: Acme;
+    letter-spacing: 2px;
+  }
+    .services_well .well
+    {
+      background-color:white;
+      border-radius: 0px;
+      margin-top: 20px; 
+    }
+  .services_well h2
+  {
+    font-size: 20px;
+    color: #105AEF;
+    
+    font-family: Acme;
+    letter-spacing: 2px;
+  }
+    .services_well i
+    {
+      color: #105AEF;
+        font-size: 30px;
+        padding-top: 5px;
+    }
+  #section4
+  {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: white;
+  }
+  .about .btn-info
+{
+  background-color:#EF1D66 ; 
+    border-radius: 0px;
+    font-family: Acme;
+    letter-spacing: 2px;
+    border:none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+ .about p
+ {
+  padding: 15px;
+  text-align: justify;
+  line-height: 30px;
+ }
+  #section5
+  {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color:#FFF2F6  ;
+  }
+  .testimonials_well .well
+  {
+    border-radius: 0px;
+    background-color: white;
+    border:1px solid #EF1D66 ;
+  }
+  .image_profile img
+  {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+  }
+  .testimonials_well .well h3
+   {
+    font-size: 20px;
+    color: #105AEF;
+    font-family: Acme;
+    letter-spacing: 2px;
+   }
+
+  .test_profile p
+  {
+    text-align:left;padding: 10px;
+     font-size: 16px;
+   }
+    #section6
+  {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color:white ;
+  }
+    #section7
+  {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color:#FFF2F6  ;
+  }
+      #section8
+  {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color:white ;
+  }
+
+    .swiper-container {
+      width: 100%;
+      padding-top: 180px;
+      padding-bottom: 50px;
+
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 380px;
+      background-color:white;
+
+    }
+     .swiper-slide .imgBox 
+     {
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+
+     }
+    .swiper-slide .imgBox img
+    {
+     width: 100%;
+
+    }
+     .swiper-slide .details
+     {
+      box-sizing: border-box;
+      
+      padding: 20px;
+     }
+       .swiper-slide .details h3
+       {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        text-align: center;
+        line-height: 20px;
+        font-family: Chicle;
+        letter-spacing: 2px;
+       }
+        .swiper-slide .details h3 span
+        {
+          font-size: 16px;
+          font-family: Acme;
+          color: #f44336;
+        }
